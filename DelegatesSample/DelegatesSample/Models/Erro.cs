@@ -4,9 +4,9 @@
     {
         public Erro(string msgErro)
         {
-            StacktraceError = msgErro;
+            MensagemErro = msgErro;
         }
 
-        public string StacktraceError { get; private set; }
+        public string MensagemErro { get; private set; }
     }
 }
